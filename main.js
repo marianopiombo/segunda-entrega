@@ -27,7 +27,7 @@ this.stock = stock
             palabraClave = prompt("Ingresa la marca del café que deseas buscar. Tenemos en stock: " + marcasDisponibles.join(", ")).trim().toLowerCase();
     
             if (marcasDisponibles.includes(palabraClave)) {
-                break; // Sale del bucle si la marca es válida.
+                break;
             } else {
                 alert("Marca no válida. Por favor, elige una marca de café de la lista: " + marcasDisponibles.join(", "));
             }
